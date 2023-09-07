@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gérer mon adresse - La boutique de la Licorne
+{% endblock %}
+{% block content %}
+	<h1>
+		Gérer mes adresses</h1>
+
+	<a href="{{ path('account_address') }}">Retour</a>
+	<hr>
+	{{ form(form) }}{% endblock %}
